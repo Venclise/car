@@ -183,11 +183,11 @@ bg-neutral-700
               href="https://wa.me/923165575485?text=Hi%20I%20want%20to%20discuss%20a%20project"
   target="_blank"
   rel="noopener noreferrer"
-  className="w-full"
+  className="w-full z-100"
             >
             <Button
               variant="default"
-              className=" py-6 w-full text-sm text-white bg-blue-500 cursor-pointer hover:bg-blue-400  rounded-full    "
+              className=" py-6 w-full z-100 text-sm text-white bg-blue-500 cursor-pointer hover:bg-blue-400  rounded-full    "
               >
               Contact on Whatsapp
             </Button>

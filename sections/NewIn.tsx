@@ -36,7 +36,6 @@ process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
 
 useEffect(() => {
 
-
     async function fetchProducts() {
         const res = await fetch(`${baseUrl}/api/products?limit=4&sort=newest`,{cache:"no-store"})
         

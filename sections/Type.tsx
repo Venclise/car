@@ -10,13 +10,13 @@ export default function Type() {
         </h1>  
 
         <div className='w-full flex items-center gap-4'>
-               <Link href="/products?condition=new" className='bg-blue-500 h-[30vh] lg:h-[50vh] flex-1 flex-col  rounded-lg flex items-center justify-center'>
+               <Link href="/products?condition=new" className='bg-blue-500 h-[20vh] lg:h-[50vh] flex-1 flex-col  rounded-lg flex items-center justify-center'>
 <Car   className='text-white size-7 lg:size-10'/>
 <span className='text-white font-semibold text-2xl lg:text-4xl underline'>
      New 
 </span>
                </Link>
-                   <Link href="/products?condition=used" className='bg-black h-[30vh] lg:h-[50vh] flex-1 flex-col  rounded-lg flex items-center justify-center'>
+                   <Link href="/products?condition=used" className='bg-black h-[20vh] lg:h-[50vh] flex-1 flex-col  rounded-lg flex items-center justify-center'>
 <Car   className='text-white size-7 lg:size-10'/>
 <span className='text-white font-semibold text-2xl lg:text-4xl underline'>
      Used 

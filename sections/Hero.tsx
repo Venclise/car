@@ -6,7 +6,7 @@ import { Car } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <div className='md:h-screen h-[120vh] gap-12  w-full py-10 px-5 lg:p-10 flex items-center lg:flex-row flex-col  '>
+    <div className='md:h-screen h-[110vh] gap-12  w-full py-10 px-5 lg:p-10 flex items-center lg:flex-row flex-col  '>
       <div className='  flex flex-col gap-4'>
         <h1 className='font-bold text-5xl lg:text-6xl text-neutral-800 max-w-xl'>
             Your Trusted Partner For Quality Vehicles

@@ -74,7 +74,7 @@ export default function ProductsGrid() {
           spaceBetween={5}
           speed={600}
           breakpoints={{
-            0: { slidesPerView: 2.5 },
+            0: { slidesPerView: 2.1 },
             640: { slidesPerView: 3.5 },
             1024: { slidesPerView: 6.1 },
           }}

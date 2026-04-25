@@ -19,22 +19,18 @@ export default function Categories() {
   const swiperRef = useRef<SwiperType | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <div className="md:h-[70vh] h-screen lg:p-10 p-5 flex flex-col gap-8 ">
+    <div className="h-[70vh] lg:p-10 p-5 flex flex-col gap-8 ">
       <h1 className="font-semibold text-3xl lg:text-4xl text-center text-neutral-800 ">
         Browse by Popular Brands
       </h1>
 
       <div>
-
-
-
-
         <Swiper
           modules={[A11y, Pagination]}
           spaceBetween={5}
           speed={600}
           breakpoints={{
-            0: { slidesPerView: 2.5 },
+            0: { slidesPerView: 2.1 },
             640: { slidesPerView: 3.5 },
             1024: { slidesPerView: 6.1 },
           }}

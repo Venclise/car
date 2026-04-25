@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Why() {
   return (
-    <div className='lg:p-10 p-5 flex items-center lg:flex-row flex-col w-full h-max' id="why">
+    <div className='lg:p-10 p-5 flex items-center lg:flex-row flex-col w-full md:h-screen h-[120vh]' id="why">
         <div className='flex flex-col gap-4 lg:flex-1 w-full '>
                <h1 className='font-bold text-5xl lg:text-6xl text-neutral-800 max-w-xl'>
             Why Choose {" "}
